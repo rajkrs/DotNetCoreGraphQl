@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ComplexFaker" Version="1.0.358.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DotNetCoreGraphQl.Order.ViewModels\DotNetCoreGraphQl.Order.ViewModels.csproj" />
+  </ItemGroup>
+
+</Project>
